@@ -1,16 +1,33 @@
 package org.afs.pakinglot.domain.dto;
 
-import org.afs.pakinglot.domain.Ticket;
-
 public class FetchRequestDto {
-    private Ticket ticket;
+    private String plateNumber;
 
-    // Getters and setters
-    public Ticket getTicket() {
-        return ticket;
+    public String getPlateNumber() {
+        return plateNumber;
     }
 
-    public void setTicket(Ticket ticket) {
-        this.ticket = ticket;
+    public void setPlateNumber(String plateNumber) {
+        this.plateNumber = plateNumber;
     }
+
+    public int getPosition() {
+        return position;
+    }
+
+    public void setPosition(int position) {
+        this.position = position;
+    }
+
+    public int getParkingLot() {
+        return parkingLot;
+    }
+
+    public void setParkingLot(int parkingLot) {
+        this.parkingLot = parkingLot;
+    }
+
+    private int position;
+    private int parkingLot;
+
 }

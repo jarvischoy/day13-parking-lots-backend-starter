@@ -1,16 +1,16 @@
 package org.afs.pakinglot.domain.dto;
 
 public class ParkRequestDto {
-    private String licenseNumber;
+    private String plateNumber;
     private int strategyIndex;
 
     // Getters and setters
-    public String getLicenseNumber() {
-        return licenseNumber;
+    public String getPlateNumber() {
+        return plateNumber;
     }
 
-    public void setLicenseNumber(String licenseNumber) {
-        this.licenseNumber = licenseNumber;
+    public void setPlateNumber(String plateNumber) {
+        this.plateNumber = plateNumber;
     }
 
     public int getStrategyIndex() {
