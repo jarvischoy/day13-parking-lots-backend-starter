@@ -4,7 +4,6 @@ import java.util.Arrays;
 import java.util.List;
 
 import org.afs.pakinglot.domain.exception.UnrecognizedTicketException;
-import org.afs.pakinglot.domain.strategies.ParkingStrategy;
 import org.afs.pakinglot.domain.strategies.SequentiallyStrategy;
 import org.afs.pakinglot.domain.strategies.AvailableRateStrategy;
 import org.afs.pakinglot.domain.strategies.MaxAvailableStrategy;

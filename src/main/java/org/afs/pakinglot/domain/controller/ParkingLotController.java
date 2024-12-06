@@ -29,7 +29,7 @@ public class ParkingLotController {
         parkingManager.park(new Car("LS23211"), 1);
         parkingManager.park(new Car("RT73123"), 2);
         parkingManager.park(new Car("R1RMYJJ"), 2);
-        parkingManager.park(new Car("ON67999"), 1);
+        parkingManager.park(new Car("ONL7999"), 1);
     }
 
     @GetMapping
