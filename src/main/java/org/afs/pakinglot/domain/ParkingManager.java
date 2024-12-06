@@ -21,8 +21,8 @@ public class ParkingManager {
         this.parkingLots = Arrays.asList(plazaPark, cityMallGarage, officeTowerParking);
 
         ParkingBoy standardParkingBoy = new ParkingBoy(parkingLots, new SequentiallyStrategy());
-        ParkingBoy smartParkingBoy = new ParkingBoy(parkingLots, new AvailableRateStrategy());
-        ParkingBoy superSmartParkingBoy = new ParkingBoy(parkingLots, new MaxAvailableStrategy());
+        ParkingBoy smartParkingBoy = new ParkingBoy(parkingLots, new MaxAvailableStrategy());
+        ParkingBoy superSmartParkingBoy = new ParkingBoy(parkingLots, new AvailableRateStrategy());
 
         this.parkingBoys = Arrays.asList(standardParkingBoy, smartParkingBoy, superSmartParkingBoy);
     }
