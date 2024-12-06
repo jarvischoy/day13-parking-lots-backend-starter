@@ -24,12 +24,12 @@ public class ParkingLotController {
     }
 
     private void init() {
-        parkingManager.park(new Car("CX23123"), 0);
-        parkingManager.park(new Car("AB98564"), 0);
-        parkingManager.park(new Car("LS23211"), 1);
-        parkingManager.park(new Car("RT73123"), 2);
-        parkingManager.park(new Car("R1RMYJJ"), 2);
-        parkingManager.park(new Car("ONL7999"), 1);
+        parkingManager.park(new Car("CX-3123"), 0);
+        parkingManager.park(new Car("AB-8564"), 0);
+        parkingManager.park(new Car("LS-3211"), 1);
+        parkingManager.park(new Car("RT-3123"), 2);
+        parkingManager.park(new Car("RJ-1999"), 2);
+        parkingManager.park(new Car("ON-7999"), 1);
     }
 
     @GetMapping
