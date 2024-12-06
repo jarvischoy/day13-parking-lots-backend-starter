@@ -13,6 +13,7 @@ convert the parkrequest and fetch request to dto
 
 modify the apis and dtos so that /park request body only contains a license number and strategy.
 
+write integration tests for the controller on the three apis
 
 write complete api docs for the three apis
 

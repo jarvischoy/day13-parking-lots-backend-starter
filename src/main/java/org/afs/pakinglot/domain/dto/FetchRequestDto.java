@@ -2,6 +2,14 @@ package org.afs.pakinglot.domain.dto;
 
 public class FetchRequestDto {
     private String plateNumber;
+    private int position;
+    private int parkingLot;
+
+    public FetchRequestDto(String plateNumber, int position, int parkingLot) {
+        this.plateNumber = plateNumber;
+        this.position = position;
+        this.parkingLot = parkingLot;
+    }
 
     public String getPlateNumber() {
         return plateNumber;
@@ -26,8 +34,5 @@ public class FetchRequestDto {
     public void setParkingLot(int parkingLot) {
         this.parkingLot = parkingLot;
     }
-
-    private int position;
-    private int parkingLot;
 
 }
